@@ -9,7 +9,7 @@ use Symfony\Component\Process\Exception\ProcessFailedException;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Arr;
 use Ifsnop\Mysqldump as IMysqldump;
-use Exception;
+use Exception; 
 
 class BackupDatabase extends Command
 {
